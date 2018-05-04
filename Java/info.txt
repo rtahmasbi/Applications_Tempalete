@@ -1,0 +1,11 @@
+to compile: javac filename.java
+to run: java filename
+Note: filename should be the name of the class 
+
+
+if you use it:
+  package com.schongeproductions.texteditor;
+
+then to run: java com.schongeproductions.texteditor.filename
+
+
