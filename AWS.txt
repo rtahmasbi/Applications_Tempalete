@@ -1,0 +1,7 @@
+AWS:
+compute: EC2
+Storage: S3
+
+
+Running programs is instance
+

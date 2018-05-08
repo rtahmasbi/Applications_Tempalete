@@ -39,6 +39,9 @@ options:
 --keep inds
 --remove inds
 
+#for vcf filter
+--biallelic-only strict
+--snps-only just-acgt
 
 
 
