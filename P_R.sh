@@ -23,6 +23,8 @@ install.packages('mixtools', repos='http://cran.us.r-project.org')
 install.packages('gridExtra', repos='http://cran.us.r-project.org')
 install.packages('nleqslv', repos='http://cran.us.r-project.org')
 install.packages('glmnet', repos='http://cran.us.r-project.org')
+install.packages('reshape2', repos='http://cran.us.r-project.org')
+install.packages('data.table', repos='http://cran.us.r-project.org')
 
 
 
