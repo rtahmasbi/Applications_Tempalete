@@ -33,8 +33,10 @@ options:
 
 --grm-cutoff 0.05
 --qcovar
+--covar
 
---extract snps
+
+--extract snps   file with one column of just SNP names
 --exclude snps
 --keep inds
 --remove inds

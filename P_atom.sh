@@ -7,7 +7,15 @@ apm install minimap-find-and-replace
 apm uninstall ...
 
 
+apm list
 
+
+apm uninstall script # it was using 100% of CPU
+
+apm uninstall platformio-ide-terminal
+
+
+#apm uninstall atom-terminal-panel
 
 
 
@@ -15,6 +23,15 @@ apm uninstall ...
 atom-text-editor::shadow .gutter {
     background-color: #373737;
 }
+
+
+#
+
+
+##########################################################
+Atom high CPU - atom helper
+
+rm -r ~/.git
 
 
 

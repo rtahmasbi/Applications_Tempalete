@@ -176,7 +176,6 @@ od -c src.out
 
 
 ########################################################
-sinfo
 source ~/. my. bash_profile
 
 whereis plink
@@ -273,3 +272,21 @@ p (named pipe)
 s (socket)
 b (block device)
 D (door, not common on Linux systems, but has been ported)
+
+
+##############################################
+##############################################
+sinfo
+
+sacct --starttime 2018-05-01 -u rata8212 --format=User,JobID,Jobname,partition,state,time,start,end,elapsed,MaxRss,MaxVMSize,nnodes,ncpus,nodelist
+
+
+sacct --starttime 2018-05-01 -u rata8212 --format=User,elapsed | grep "rata8212"
+
+
+
+
+
+
+
+#
