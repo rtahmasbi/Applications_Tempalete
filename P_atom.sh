@@ -2,6 +2,7 @@
 apm install minimap
 apm install todo-show
 apm install minimap-find-and-replace
+apm install date                      # https://atom.io/packages/date
 
 
 apm uninstall ...
