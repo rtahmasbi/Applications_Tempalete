@@ -21,7 +21,7 @@ apm uninstall platformio-ide-terminal
 
 
 ## add in ~/.atom/styles.less
-atom-text-editor::shadow .gutter {
+atom-text-editor.editor .gutter {
     background-color: #373737;
 }
 
