@@ -251,7 +251,8 @@ module load R
 
 c () { echo -e '\e[1;31m'`\$1`; echo -en '\e[0m';}
 alias l="c pwd; ls -lh"
-alias ls="ls --color=auto"
+#alias ls="ls --color=auto"
+alias ls="ls -FHG"
 
 alias ncol="awk '{print NF; exit}'"
 
