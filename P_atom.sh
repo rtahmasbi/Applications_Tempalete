@@ -4,6 +4,13 @@ apm install todo-show
 apm install minimap-find-and-replace
 apm install date                      # https://atom.io/packages/date
 
+apm install markdown-mindmap # for markdown tree view
+
+
+figlet
+
+https://atom.io/packages/sublime-style-column-selection
+
 
 apm uninstall ...
 
